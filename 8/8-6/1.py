@@ -1,0 +1,6 @@
+a = list(map(int, input().split()))
+a = set(a)
+b = list(map(int, input().split()))
+b = set(b)
+c = a.intersection(b)
+print(len(c))
